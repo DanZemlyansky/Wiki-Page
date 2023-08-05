@@ -1,0 +1,85 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0 auto;
+  font-family: 'Gudea', Arial, Helvetica, sans-serif;
+  background-color: #850400;
+  color: #fff;
+  position: relative;
+}
+
+.gridwrap {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+
+}
+
+.header {
+  grid-area: 1 / 1 / 2 / 6;
+}
+
+.main {
+  grid-area: 2 / 1 / 11 / 3;
+}
+
+.sideimage {
+  grid-area: 2 / 3 / 11 / 6;
+  background-color: #1F0100;
+}
+
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.2s linear !important;
+}
+
+a:hover {
+  color: rgb(220, 10, 16) !important;
+}
+
+.-about {
+  display: flex;
+  justify-content: center;
+}
+.aboutwrap {
+  height: 50%;
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ft-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2%;
+  gap: 20px;
+}
+
+.ft-left {
+  align-self: center;
+  margin-left: 2%;
+  font-size: 80%;
+  font-weight: lighter;
+}
+
+.ft-right {
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  align-self: center;
+  font-size: 200%;
+}
+
+
+
+

@@ -1,0 +1,45 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000;
+  font-weight: bold;
+  height: 130px;
+  font-size: 190%;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.marvel-logo-nav {
+  width: 7em;
+  height: auto;
+}
+
+.marvel-logo-text {
+  width: 2em;
+  height: 0.8em;
+}
+
+.text-container-welcome {
+  font-size: 156%;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  position: fixed;
+  width: 100vw;
+  height: 60px;
+  bottom: 0;
+  background-color: #1F0100;
+}
+
+.sideimage {
+  background-image: url(images/marvel-ironman.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}

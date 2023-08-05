@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wiki Page</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="navbar.css" />
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 600px)">
+  <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 600px)" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Gudea:wght@400;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/2aa5e9e01d.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <div class="gridwrap">
+    <div class="header">
+      <header>
+        <nav>
+          <img class="marvel-logo-nav" src="images/Marvel_Logo.svg.png" alt="Marvel_Logo">
+          <span class="nav-item"><a class="nav-link" href="index.html">Home</a></span>
+          <span class="nav-item"><a class="nav-link" href="movies.html">Movies</a></span>
+          <span class="nav-item"><a class="nav-link" href="media.html">Media</a></span>
+          <span class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></span>
+        </nav>
+      </header>
+
+    </div>
+    <div class="main container">
+      <h1 class="text-center fw-bold">Contact Us</h1>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" required>
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Name</label>
+          <input type="text" class="form-control" id="inputName" required>
+        </div>
+
+        <div class="form-floating">
+
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+            style="height: 100px"></textarea>
+          <label for="floatingTextarea2">Your Message</label>
+        </div>
+
+        <div class="col-12">
+          <button type="submit" class="btn btn-danger">Submit</button>
+        </div>
+      </form>
+    </div>
+    <div class="sideimage">
+    </div>
+  </div>
+
+  <footer>
+
+    <div class="ft-container">
+      <div class="ft-left">
+        <a href="about.html" class="about-link">About</a>
+      </div>
+      <div class="ft-right">
+      <a class="link -github" href="https://github.com/DanZemlyansky"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/dan-zemlyansky-a90847266/" class="link -linkedin"><i
+          class="fa-brands fa-linkedin"></i></a>
+      <a href=" mailto:danzemly000@gmail.com" class="link -mailme"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+
+    </div>
+  </footer>
+</body>
+
+</html>

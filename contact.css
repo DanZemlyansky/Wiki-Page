@@ -1,0 +1,23 @@
+.btn {
+    background-color: rgb(220, 10, 16)
+ }
+
+ .btn:hover {
+    background-color: rgb(145, 9, 13);
+ }
+
+
+.row {
+    margin-top: 1%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s linear !important;
+  }
+  
+  a:hover {
+    color: rgb(220, 10, 16) !important;
+  }
+  

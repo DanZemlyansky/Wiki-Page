@@ -1,0 +1,51 @@
+.gridwrap {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+
+.header {
+    grid-area: 1 / 1 / 2 / 6;
+}
+
+.main {
+    grid-area: 2 / 1 / 11 / 6;
+}
+
+.card-body {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fa-regular:hover {
+    color: rgb(11, 185, 11);
+    cursor: pointer;
+}
+
+.cardwrap {
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.cardwrap:nth-of-type(1) {
+    margin-top: 2%;
+}
+
+
+
+.card-img-top {
+    height: 371px;
+}
+
+
+.fa-thumbs-up {
+    display: flex;
+    align-self: flex-end ;
+}

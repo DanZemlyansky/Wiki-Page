@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000;
+  font-weight: bold;
+  height: 130px;
+  font-size: 200%;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.marvel-logo-nav {
+  width: 7em;
+  height: auto;
+}
